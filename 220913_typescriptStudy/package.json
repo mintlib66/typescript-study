@@ -1,0 +1,20 @@
+{
+  "name": "220913_typescriptstudy",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "typescript": "^4.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "dev" : "ts-node src",
+    "build" : "tsc && node dist"
+    
+  }
+}
